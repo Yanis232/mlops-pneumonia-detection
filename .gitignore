@@ -4,7 +4,14 @@ __pycache__/
 .ipynb_checkpoints/
 
 # --- Datasets (Trop lourd) ---
-chest_xray/
+# On ignore tout le contenu du dossier chest_xray (les milliers d'images)
+chest_xray/**/*
+
+# MAIS on force Git à garder les fichiers .gitkeep (ce qui maintiendra l'architecture visible)
+!chest_xray/**/.gitkeep
+
+# On garde aussi ton fichier JSON de paramètres de drift (très utile pour la reproductibilité)
+!chest_xray/**/*.json
 Archive/
 
 # --- Gros Checkpoints & Artefacts (Trop lourd) ---
