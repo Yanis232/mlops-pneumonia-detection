@@ -1,0 +1,26 @@
+{
+  "model_name": "DenseNet121_TL",
+  "checkpoint": "C:\\Users\\Yanis\\IA_GEN_PROJET\\checkpoints\\optimized_best_densenet121_TL.pth",
+  "input_shape": [
+    1,
+    1,
+    224,
+    224
+  ],
+  "num_classes": 2,
+  "preprocessing": {
+    "grayscale": true,
+    "resize": [
+      224,
+      224
+    ],
+    "normalize_mean": [
+      0.5
+    ],
+    "normalize_std": [
+      0.25
+    ]
+  },
+  "device_tested": "cuda",
+  "note": "Champion s\u00e9lectionn\u00e9 \u00e0 l'issue du Th\u00e8me 3 (comparaison Test Set)."
+}

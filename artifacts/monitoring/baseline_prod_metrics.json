@@ -1,0 +1,22 @@
+{
+  "run_id": "20260211_071525_f0eed5",
+  "model_name": "DenseNet121_TL",
+  "model_version": "onnx-gpu-prod-v1",
+  "n_samples": 300,
+  "errors": 0,
+  "latency_ms": {
+    "mean": 25.655893666666717,
+    "p50": 21.79180000000258,
+    "p95": 29.23614500000298
+  },
+  "confidence": {
+    "mean": 0.9981253902117412,
+    "std": 0.0005596676750378406,
+    "low_conf_rate_<0.6": 0.0
+  },
+  "predicted_class_distribution": {
+    "class_0_ratio": 0.0,
+    "class_1_ratio": 1.0
+  },
+  "timestamp_utc": "2026-02-11T07:15:34.481096+00:00"
+}

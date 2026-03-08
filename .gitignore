@@ -1,0 +1,35 @@
+# --- Python & Jupyter ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# --- Datasets (Trop lourd) ---
+chest_xray/
+Archive/
+
+# --- Gros Checkpoints & Artefacts (Trop lourd) ---
+checkpoints/*.pth
+checkpoints/*.pt
+# On garde les petits fichiers de métriques .pt s'ils sont légers, sinon tout exclure :
+# checkpoints/
+
+# On garde les modèles ONNX s'ils font < 100Mo (DenseNet fait ~30Mo donc OK)
+# Si tes fichiers .onnx.data sont énormes, décommente la ligne suivante :
+# artifacts/*.data
+
+# --- Logs & Runs (Optionnel, garder si tu veux montrer les preuves) ---
+# runs/
+# artifacts/monitoring/tensorboard/
+
+# --- LaTeX build files (inutile sur git) ---
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.pdf
+
+
+# --- OS ---
+.DS_Store
+Thumbs.db

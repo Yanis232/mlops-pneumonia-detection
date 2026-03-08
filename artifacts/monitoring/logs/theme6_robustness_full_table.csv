@@ -1,0 +1,7 @@
+Niveau Sévérité,Description,Gaussian Noise,Motion Blur,Overexposure,Rotation,Sensor Artifacts
+0,Baseline (Aucune dégradation),93.91%,93.91%,93.91%,93.91%,93.91%
+1,"Faible (Bruit 5%, Flou 3px, Rot 5°, Exp+10%, Art 2%)",84.62%,92.79%,62.98%,94.39%,93.91%
+2,"Léger (Bruit 10%, Flou 5px, Rot 10°, Exp+20%, Art 4%)",73.40%,84.78%,69.55%,94.39%,93.75%
+3,"Modéré (Bruit 15%, Flou 7px, Rot 15°, Exp+30%, Art 6%)",64.58%,71.31%,83.65%,94.39%,94.23%
+4,"Sévère (Bruit 20%, Flou 9px, Rot 20°, Exp+40%, Art 8%)",62.66%,63.78%,83.49%,95.35%,93.11%
+5,"Extrême (Bruit 25%, Flou 11px, Rot 25°, Exp+50%, Art 10%)",62.50%,62.50%,86.38%,94.87%,94.39%
